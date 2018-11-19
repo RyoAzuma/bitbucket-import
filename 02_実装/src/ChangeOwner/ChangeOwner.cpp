@@ -69,6 +69,8 @@ int ITK_user_main(int argc, char* argv[])
      return status;
    }
    
+   
+   //TCログアウト
    ITK_exit_module( TRUE);
    return status;
 }
