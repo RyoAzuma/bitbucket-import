@@ -1,0 +1,64 @@
+﻿2017/10/18 16:05:37 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\work\ChangeOwner\ChangeOwner.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "x64\Release\ChangeOwner.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         d:\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\app\Siemens\Teamcenter10\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D NT40 /D POMDLL /D CRTAPI1=_cdecl /D CRTAPI2=cdecl /D _WIN32 /D WIN32 /D WIN32_LEAN_AND_MEAN /D WNT /D BYPASS_FLEX /D _INTEL=1 /D IPLIB=none /D _SECURE_SCL=0 /D _WIN64 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ChangeOwner.cpp
+         ChangeOwner.cpp
+     1>D:\app\Siemens\Teamcenter10\include\pom/pom/pom.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\app\Siemens\Teamcenter10\include\pom/pom/pom_errors.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\app\Siemens\Teamcenter10\include\pom/pom/pom.h(811): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\app\Siemens\Teamcenter10\include\pom/pom/pom.h(4750): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\app\Siemens\Teamcenter10\include\pom/pom/pom.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\app\Siemens\Teamcenter10\include\pom/pom/pom.h(811): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>D:\app\Siemens\Teamcenter10\include\pom/pom/pom.h(4750): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+       Link:
+         d:\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\ChangeOwner\x64\Release\ChangeOwner.exe" /NOLOGO /LIBPATH:D:\app\Siemens\Teamcenter10\lib itk_main.obj libsyss.lib libpom.lib libtcsso.lib libae.lib libappr.lib libarchive.lib libbackup.lib libbom.lib libcfm.lib libconstants.lib libcxpom.lib libdmi.lib libecm.lib libeint.lib libepm.lib libfclasses.lib libform.lib libgms.lib libgrm.lib libtcinit.lib libtc.lib libtccore.lib libtctrushape.lib libinternal_exits.lib libvalidation.lib libitk.lib liblov.lib libme.lib libmgc.lib libobjio.lib libpie.lib libai.lib libproperty.lib libps.lib libpublication.lib libqry.lib libclips.lib libclipsutil.lib librbf.lib libce.lib libres.lib libsa.lib libss.lib libstep.lib libsub_mgr.lib libtextsrv.lib libtie.lib libnxmgr_im.lib libaie.lib libics.lib libeintstub.lib libsml.lib libuser_exits.lib librdv.lib libcollabctx.lib libmechatronics.lib libtccoreext.lib libusagewc.lib libusage.lib libcontmgmt.lib libtc_utils.lib libschmgt.lib libschmgt_bridge.lib libdocmgt.lib libdocmgtapp.lib libvm.lib libadsfoundationdispatch.lib libcm.lib libcmdispatch.lib libbase_utils.lib libmld.lib libfunctionality.lib libmfg.lib libmfgbvr.lib libtcserverutil.lib libcondvalidation.lib libbooleanmath.lib libconfigurator.lib libfnd0booleansolve.lib libsecore.lib libFnd0formulamgmt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DELAYLOAD:libtcsso.dll /DELAYLOAD:libict.dll /DELAYLOAD:libae.dll /DELAYLOAD:libappr.dll /DELAYLOAD:libarchive.dll /DELAYLOAD:libbackup.dll /DELAYLOAD:libbom.dll /DELAYLOAD:libcfm.dll /DELAYLOAD:libdmi.dll /DELAYLOAD:libecm.dll /DELAYLOAD:libeint.dll /DELAYLOAD:libepm.dll /DELAYLOAD:libform.dll /DELAYLOAD:libgrm.dll /DELAYLOAD:libtccore.dll /DELAYLOAD:libtctrushape.dll /DELAYLOAD:libinternal_exits.dll /DELAYLOAD:libitk.dll /DELAYLOAD:libvalidation.dll /DELAYLOAD:liblov.dll /DELAYLOAD:libme.dll /DELAYLOAD:libmechatronics.dll /DELAYLOAD:libmgc.dll /DELAYLOAD:libobjio.dll /DELAYLOAD:libproperty.dll /DELAYLOAD:libps.dll /DELAYLOAD:libpublication.dll /DELAYLOAD:libqry.dll /DELAYLOAD:libres.dll /DELAYLOAD:libstep.dll /DELAYLOAD:libsub_mgr.dll /DELAYLOAD:libtccoreext.dll /DELAYLOAD:libnxmgr_im.dll /DELAYLOAD:libpie.dll /DELAYLOAD:libai.dll /MANIFEST /ManifestFile:"x64\Release\ChangeOwner.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\ChangeOwner\x64\Release\ChangeOwner.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\ChangeOwner\x64\Release\ChangeOwner.lib" /MACHINE:X64 x64\Release\ChangeOwner.obj
+         コード生成しています。
+         コード生成が終了しました。
+     1>LINK : warning LNK4199: /DELAYLOAD:libtcsso.dll は無視されます。libtcsso.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libict.dll は無視されます。libict.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libae.dll は無視されます。libae.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libappr.dll は無視されます。libappr.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libarchive.dll は無視されます。libarchive.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libbackup.dll は無視されます。libbackup.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libbom.dll は無視されます。libbom.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libcfm.dll は無視されます。libcfm.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libdmi.dll は無視されます。libdmi.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libecm.dll は無視されます。libecm.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libeint.dll は無視されます。libeint.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libepm.dll は無視されます。libepm.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libform.dll は無視されます。libform.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libgrm.dll は無視されます。libgrm.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libtctrushape.dll は無視されます。libtctrushape.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libinternal_exits.dll は無視されます。libinternal_exits.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libitk.dll は無視されます。libitk.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libvalidation.dll は無視されます。libvalidation.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:liblov.dll は無視されます。liblov.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libme.dll は無視されます。libme.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libmechatronics.dll は無視されます。libmechatronics.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libmgc.dll は無視されます。libmgc.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libobjio.dll は無視されます。libobjio.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libproperty.dll は無視されます。libproperty.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libps.dll は無視されます。libps.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libpublication.dll は無視されます。libpublication.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libqry.dll は無視されます。libqry.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libres.dll は無視されます。libres.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libstep.dll は無視されます。libstep.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libsub_mgr.dll は無視されます。libsub_mgr.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libtccoreext.dll は無視されます。libtccoreext.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libnxmgr_im.dll は無視されます。libnxmgr_im.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libpie.dll は無視されます。libpie.dll にインポートがありません。
+     1>LINK : warning LNK4199: /DELAYLOAD:libai.dll は無視されます。libai.dll にインポートがありません。
+     1>itk_main.obj : warning LNK4204: 'D:\work\ChangeOwner\x64\Release\vc100.pdb' に参照するモジュールのデバッグ情報がありません。デバッグ情報を無視してオブジェクトをリンクします。
+         ChangeOwner.vcxproj -> D:\work\ChangeOwner\x64\Release\ChangeOwner.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\work\ChangeOwner\x64\Release\ChangeOwner.exe;#1" /manifest x64\Release\ChangeOwner.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "x64\Release\ChangeOwner.unsuccessfulbuild" を削除しています。
+         "x64\Release\ChangeOwner.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "D:\work\ChangeOwner\ChangeOwner.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.82

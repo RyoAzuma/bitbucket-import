@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension point="org.eclipse.ui.commands">
+      <command
+         name="サンプルA2_00002"
+         id="com.mycom.addshortcut.commands.sampleCommand">
+      </command>
+   </extension>
+   <extension point="org.eclipse.ui.handlers">
+      <handler
+         commandId="com.mycom.addshortcut.commands.sampleCommand"
+         class="revup.revup">
+      </handler>
+   </extension>
+   <extension point="org.eclipse.ui.menus">
+      <menuContribution 
+         locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+         <command
+            commandId="com.mycom.addshortcut.commands.sampleCommand"
+            mnemonic="S"
+            icon="icons/icon.gif"
+            id="com.mycom.addshortcut.menus.sampleCommand">
+            <visibleWhen>
+               <reference
+                  definitionId="com.teamcenter.rac.ui.inMainPerspective">
+               </reference>
+            </visibleWhen>
+         </command>
+      </menuContribution>
+   </extension>
+
+</plugin>
